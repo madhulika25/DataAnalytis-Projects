@@ -403,7 +403,7 @@
         </drill-path>
       </drill-paths>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/Office Items/Projects- Data Analytics/Project 1 - Department store/Department Store.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/13/2021 05:42:12 AM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/DataAnalytis-Projects/DataAnalytis-Projects/Project 1 - Department store/Department store extract.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/13/2021 05:42:12 AM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <refresh>
@@ -1629,8 +1629,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98222' id='29' param='vert' type-v2='layout-flow' w='98770' x='615' y='889'>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='31' param='vert' type-v2='layout-flow' w='98770' x='615' y='889'>
                 <zone fixed-size='280' h='57000' id='7' is-fixed='true' name='Sales Map' w='49385' x='615' y='889'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1731,7 +1731,7 @@
       <simple-id uuid='{EDA9C9F4-AFED-412E-8087-21ED3EB7B0A0}' />
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
     <window class='worksheet' name='Yearly Sales'>
       <cards>
         <edge name='left'>
